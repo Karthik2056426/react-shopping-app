@@ -2,6 +2,7 @@ import React from "react";
 
 function Productpage({ prdp, addcart, cartItems }) {
 
+  // code to stop duplication of cart items
   const isProductInCart = cartItems.some((item) => item.id === prdp[0].id);
   console.log("cartitems", cartItems);
   return (
@@ -15,7 +16,7 @@ function Productpage({ prdp, addcart, cartItems }) {
   <div className="mt-[10px]">{prdp[0].details}</div>
   <div  className='font-bold text-3xl mt-2'> ₹ {prdp[0].price}</div>
   </div>
- 
+ {/* conditional rendering if product is already in cart then no need to add again  */}
   <div >  {isProductInCart ? (
           <div className=' cursor-pointer font-bold text-xl rounded-full text-center px-4 py-2 mt-[210px] bg-slate-200'>Added to cart</div>
         ) : (

@@ -11,8 +11,8 @@ function Checkout({cart, totalprice}) {
         <div className='m-2'>House name <input type='text' className='bg-slate-300  border border-slate-600' placeholder='house name'></input></div>
         <div className='m-2'>Street name <input type='text' className='bg-slate-300 border border-slate-600' placeholder='street name'></input></div>
         <div className='m-2'>
-        District <input  className='bg-slate-300 border border-slate-600 ' type='text' placeholder='street name'></input></div>
-       <div className='m-2'> State <input  className='bg-slate-300 border border-slate-600 ' type='text' placeholder='street name'></input>
+        District <input  className='bg-slate-300 border border-slate-600 ' type='text' placeholder='district name'></input></div>
+       <div className='m-2'> State <input  className='bg-slate-300 border border-slate-600 ' type='text' placeholder='state name'></input>
 
         </div>
         <div className='m-2'>PINCODE <input  className='bg-slate-300 border border-slate-600 ' type='text' placeholder='PINCODE'></input></div>
