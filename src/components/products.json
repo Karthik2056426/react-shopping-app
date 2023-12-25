@@ -1,0 +1,47 @@
+ 
+ [
+ {"id":1,
+   "name": "Apple Iphone 15",
+   "price":  40000,
+   "quantity":1,
+   "image":"./assets/iphone15.jpg",
+   "details" : "256GB 6GB RAM a15 bionic processor 12mp camera"
+ },
+ {"id":2,
+    "name": "Samsung Galaxy s23Ultra",
+    "price":  140000,
+    "quantity":1,
+    "image": "./assets/samsung23.jpg",
+    "details" : "500GB 12GB RAM Qualcomm snapdragon 8-gen processor-2 200MP + 10MP + 12MP + 10MP camera"
+  },
+  {"id":3,
+    "name": "Oppo",
+    "price":  45000,
+    "quantity":1,
+    "image":"./assets/oppo.png",
+    "details" : "256GB 6GB RAM Qualcomm snapdragon 7-gen 12mp + 8mp ultra-wide camera"
+  },
+  {"id":4,
+    "name": "sony playstation",
+    "price":  50000,
+    "quantity":1,
+    "image":"./assets/playstation.jpg",
+    "details" : "825GB 12GB RAM Digital edition 120Hz 4320p HDR 3x USB Type-A"
+  },
+  {"id":5,
+    "name": "sony TV",
+    "price":  50000,
+    "quantity":1,
+    "image":"./assets/sonytv.jpg",
+    "details" : "Sony 138.8cm (55-inch) Ultra HD 4K LED Smart Google TV"
+  },
+  {"id":6,
+    "name": "JBL headphones",
+    "price":  8000,
+    "quantity":1,
+    "image":"./assets/jbl.jpg",
+    "details" : "JBL Tune 760NC Active Noise Cancelling, 50Hr playtime, Fast pair and multi connect Bluetooth headset"
+  }
+ 
+]
+
